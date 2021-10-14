@@ -29,19 +29,19 @@
     <h2 class="create"><strong>Create your Qoute</strong></h2>
   </div>
   <div class="container">
-    <h3><strong><em>Add Quote</em></strong></h3>
-    <div class="litle-container">
+    <h3><strong><em>Add Quote...</em></strong></h3>
+    <div class="title-container">
       <label for="title">Author's name:</label>
-      <input type="Quote" id="title">
+      <input type="Quote" id="title" #title>
       <div class="link-container">
         <label for="link">Quote:</label>
-        <input type="text" id="link"> 
+        <input type="text" id="link" #link> 
       </div>
       <div class="email-container">
         <label for="link">Email:</label>
         <input type="text" id="email"> 
       </div>
-      <button class="submit-btn">create quote</button>
+      <button class="submit-btn" (click)="add_article(title, link)">create quote</button>
 
     </div>
   </div>
