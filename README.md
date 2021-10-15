@@ -1,21 +1,36 @@
 # Quote-Generator
 
-Write the project description here...
+
+# Author
+Dickson Njuguna
+
+# *project description
+
+This is a project based on angular ..main aim is making a
+(quote-generator) that allows one to post a new quote
+..like ..dislike...and delete the quote if need be.
 
 
 ## Technologies Used
 
-- Add technologies you may have used in the project e.g HTML & CSS (Bootstrap)
+- *angular
+- *javascript..(to allow interaction of the user and the webpage)
+- *css      ..(to style the web page)
+- *bootstrap ..(to import styling properties)
+- *fontowsome ..(to add icons to our web page)
+- 
 
 
-##### Setup Instructions and Installation
+## Setup Instructions
 
-- Explain steps to clone, install and run the application on a local machine.
+- The app is staight forward .available on the github -ghpages..
+- no installation required
 
 
 ## Development
 
-Want to contribute? Great!
+The web page is accesable for collabos and participate in the making of the web
+
 
 To fix a bug or enhance an existing module, follow these steps:
 - Fork the repo
