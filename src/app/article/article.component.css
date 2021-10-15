@@ -28,7 +28,7 @@
 }
 .up{
     background-color: greenyellow;
-    font-size: 20px;
+    font-size: 21px;
     font-family: serif;
 }
 .dow{
@@ -39,7 +39,7 @@
 }
 .delete{
     background-color: red;
-    font-size: 20px;
+    font-size: 21px;
     font-family: serif;
     justify-content: space-between;
 }
