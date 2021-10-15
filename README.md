@@ -55,6 +55,8 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 *Github:https://github.com/dick7005/quote-generator
 
+*Github (gh-pages):https://dick7005.github.io/quote-generator/
+
 
 ### License
 
