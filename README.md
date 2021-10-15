@@ -1,6 +1,7 @@
 # Quote-Generator
 
-Write the project description here...
+##project description
+This is a project based on angular ..main aim is making a (quote-generator) that allows one to post a new quote ..like ..dislike...and delete the quote if need be.
 
 
 ## Technologies Used
