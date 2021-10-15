@@ -48,7 +48,7 @@ If you find a bug (the website couldn't handle the quehttps://dick7005.github.io
 
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
-## contact
+## *contact
 *Tell:0757116399
 
 *Email:pythonscript254@gmail.com
