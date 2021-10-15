@@ -1,19 +1,20 @@
-<div class="container">
+<div class="container" id="dick">
     <div class="points">
-        <div>3</div>
+        <div>{{article.title}}</div>
+        <div>0</div>
+        <div>points</div>
     </div>
     <div class="details">
         <div>
-            <a href="">angular</a>
-            <div>angular</div>
+            <a href="{{article.link}}">{{article.title}}</a>
+             <div>"{{article.link}}"</div>
         </div>
-        <div class="vote">
-            <div>like
-                <i class="fa fa-heart"></i>
-            </div>
-            <div>dislike
-                <i class="fa fa-heartbeat"></i>
-            </div>
+        <div class="vote">          
+            <div (click)= "vote_up()" class="up">like</div>
+            <div (click)= "vote_down()"class="dow">dislike</div>
+            <div class="delete"> delete</div>
+
+            
         </div>
 
     </div>

@@ -56,6 +56,8 @@ button{
     color: greenyellow;
     background-color:black ;
     font-size: 20px;
+    height: 65px;
+    
 
 }
 .container{
@@ -107,7 +109,19 @@ h3{
 .lab{
     color:rgb(114, 219, 16);
     font-size: 25px;
+
 }
 .deco{
     background-image: url(./images/hhhhhh.jpeg);
+}
+.check{
+    color: blue;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    background-color:pink;
+    align-items: center;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-family: serif;
 }

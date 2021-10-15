@@ -39,11 +39,10 @@
           <label class="lab" for="link">Quote:</label>
           <input type="text" id="link" #link> 
         </div>
-        <div class="email-container">
-          <label class="lab" for="link">Email:</label>
-          <input type="text" id="email"> 
-        </div>
-        <button class="submit-btn" (click)="add_article(title, link)">create quote</button>
+        
+        <button     class="submit-btn" (click)="add_article(title, link)" >create quote</button>
+        <a class="check" href="#dick">check</a>
+
   
       </div>
     </div>
@@ -53,6 +52,6 @@
 </body>
 <!--article component-->
 <div>
-  <app-article *ngFor="let article of articles"></app-article>
+  <app-article *ngFor="let article of articles" [article]="article"></app-article>
 </div>
 </html>

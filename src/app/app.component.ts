@@ -9,12 +9,13 @@ import { Article } from './article/article.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title(title: any) {
+    
+  }
   articles: Article[]
   constructor() {
     this.articles =[
-      new Article('Angular', 'http://angular.io', 3),
-      new Article('fullstack', 'http://fullstack.io', 2),
-      new Article('Angular homepage', 'http://angular.io', 1),
+   
     ]
    }
 
@@ -23,7 +24,9 @@ export class AppComponent {
 
   
  add_article(title: HTMLInputElement, link: HTMLInputElement){
-   console.log(title.value)
+   this.articles.push(new Article(title.value, link.value))
+   title.value = ""
+   link.value = ""
 
  }
 }
